@@ -9,6 +9,8 @@ lesson000/
   ├── section01.md
   ├── section02.md
   └── section03.md
+  └── programs
+        └── sample.js
   └── elements
         └── example.png
 ```
@@ -19,6 +21,7 @@ lesson000/
 - lessonは，いくつかのsectionを持っている．
 - sectionのファイル名は，`section` + 0埋め2ケタ の section番号とし，拡張子は `md` とする．
 - elements には，図やパワーポイントなどの関連資料を入れる．
+- code には，サンプルコードや，CTFの問題などを入れる．
 
 ---
 
