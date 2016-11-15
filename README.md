@@ -9,6 +9,8 @@
 <p align="center">
   <b><a href="#about">About</a></b>
   |
+  <b><a href="#agenda">Agenda</a></b>
+  |
   <b><a href="#license">License</a></b>
 </p> 
 
@@ -19,11 +21,16 @@ About
 
 学習範囲は，富永研究室に沿って幅広くまんべんなくを目指す．
 
+Agenda
+---
+
+- [Lesson000 : レッスンの作成手順と方法](./lesson000)
+
 License
 ---
 
 ![slp-kbit](https://avatars3.githubusercontent.com/u/7514241?v=3&s=100)
 
-**Copyright (c) 2016 "SLP-KBIT**
+**Copyright (c) "SLP-KBIT**
 
 Licensed under the [GNU Free Documentation License](./LICENSE.txt)
