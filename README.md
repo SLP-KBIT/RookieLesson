@@ -24,6 +24,6 @@ License
 
 ![slp-kbit](https://avatars3.githubusercontent.com/u/7514241?v=3&s=100)
 
-**Copyright (c) 2016 "SLP-KBIT**
+**Copyright (c) "SLP-KBIT**
 
 Licensed under the [GNU Free Documentation License](./LICENSE.txt)
