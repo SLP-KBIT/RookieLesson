@@ -10,6 +10,13 @@ namespace Section02
 
       Console.WriteLine(soldier.getHp());     // hpの値を確認
       Console.WriteLine(soldier.getPower());  // powerの値を確認
+
+      // 変数の値を改変
+      soldier.hp = 20;
+      soldier.power = 1;
+
+      Console.WriteLine(soldier.getHp());     // hpの値を確認
+      Console.WriteLine(soldier.getPower());  // powerの値を確認
     }
   }
 }
