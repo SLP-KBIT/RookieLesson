@@ -2,8 +2,8 @@ namespace Section02
 {
   public class Soldier
   {
-    public int hp;     // ヒットポイント
-    public int power;  // 攻撃力
+    private int hp;     // ヒットポイント
+    private int power;  // 攻撃力
 
     public Soldier(int hp, int power)
     {
@@ -19,6 +19,11 @@ namespace Section02
     public int getPower()
     {
       return power;
+    }
+
+    public void damage(int power)
+    {
+      hp -= power;
     }
   }
 }

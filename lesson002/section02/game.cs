@@ -6,17 +6,25 @@ namespace Section02
   {
     public static void Main()
     {
-      Soldier soldier = new Soldier(100, 10); // Soldierをインスタンス化
+      // Soldierをインスタンス化
+      Soldier s1 = new Soldier(100, 30);
+      Soldier s2 = new Soldier(200, 10);
 
-      Console.WriteLine(soldier.getHp());     // hpの値を確認
-      Console.WriteLine(soldier.getPower());  // powerの値を確認
+      WriteResult(s1, s2);
 
-      // 変数の値を改変
-      soldier.hp = 20;
-      soldier.power = 1;
+      s1.damage(s2.getPower()); // s1がs2に攻撃
+      s2.damage(s1.getPower()); // s2がs1に攻撃
 
-      Console.WriteLine(soldier.getHp());     // hpの値を確認
-      Console.WriteLine(soldier.getPower());  // powerの値を確認
+      WriteResult(s1, s2);
+    }
+
+    public static void WriteResult(Soldier s1, Soldier s2)
+    {
+      // 値の出力
+      Console.WriteLine("---s1---");
+      Console.WriteLine("hp : " + s1.getHp() + ", power : " + s1.getPower());
+      Console.WriteLine("---s2---");
+      Console.WriteLine("hp : " + s2.getHp() + ", power : " + s2.getPower());
     }
   }
 }
