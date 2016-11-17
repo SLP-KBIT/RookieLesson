@@ -3,14 +3,15 @@
 ## 目次
 
 - [Section01](./section01.md): Shellとは
-- [Section02](./section02.md): よく使うコマンド
-- [Section03](./section03.md): オプション
-- [Section04](./section04.md): パイプ
-- [Section05](./section05.md): リダイレクト
-- [Section06](./section06.md): シェルスクリプト
-- [Section07](./section07.md): シェルの設定ファイル
-- [Section08](./section08.md): プロンプトの設定
-- [Section09](./section09.md): エイリアスの作成
+- [Section02](./section02.md): ディレクトリとは
+- [Section03](./section03.md): よく使うコマンド
+- [Section04](./section04.md): オプション
+- [Section05](./section05.md): パイプ
+- [Section06](./section06.md): リダイレクト
+- [Section07](./section07.md): シェルスクリプト
+- [Section08](./section08.md): シェルの設定ファイル
+- [Section09](./section09.md): プロンプトの設定
+- [Section10](./section10.md): エイリアスの作成
 
 ## 備考
 
