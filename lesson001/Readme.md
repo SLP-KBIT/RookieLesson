@@ -10,8 +10,6 @@
 - [Section06](./section06.md): リダイレクト
 - [Section07](./section07.md): シェルスクリプト
 - [Section08](./section08.md): シェルの設定ファイル
-- [Section09](./section09.md): プロンプトの設定
-- [Section10](./section10.md): エイリアスの作成
 
 ## 備考
 
