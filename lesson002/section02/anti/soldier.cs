@@ -1,4 +1,4 @@
-namespace Section01
+namespace Section02.Anti
 {
   public class Soldier
   {

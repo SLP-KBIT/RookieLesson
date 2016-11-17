@@ -1,4 +1,4 @@
-namespace Section02
+namespace Section02.Answer
 {
   using System;
 
