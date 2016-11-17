@@ -2,19 +2,21 @@
 
 ## 概要
 
-- 本セクションでは、C#プログラムの動作確認を行う
+- 本セクションでは、アクセス修飾子、カプセル化について述べる
+- hp(ヒットポイント)とpower(攻撃力)を持ったSoldierクラスを題材とする
+- エントリーポイントとなるGameクラスでは、hpとpowerの出力を行う
 
-## 動作確認
+## アクセス修飾子
 
-- 以下の内容を実行する
+- 以下のコマンドを実行する
 
 ```sh
-$ cd /path/to/lesson002
+$ cd /path/to/lesson002/section01
 $ csc.exe section01.cs soldier.cs
 $ section01.exe
 ```
 
-- 以下のような結果が得られる
+- 以下のような実行結果が得られる
 
 ```
 100
@@ -24,3 +26,4 @@ $ section01.exe
 - 使用したプログラムは以下の通りである
   - [section01.cs](./section01.cs)
   - [soldier.cs](./soldier.cs)
+
