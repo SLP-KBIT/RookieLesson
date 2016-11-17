@@ -10,8 +10,8 @@
 
 ```sh
 $ cd /path/to/lesson002/section02
-$ csc.exe section02.cs soldier.cs
-$ section02.exe
+$ csc.exe game.cs soldier.cs
+$ game.exe
 ```
 
 - 以下のような結果が得られる
@@ -22,6 +22,6 @@ $ section02.exe
 ```
 
 - 使用したプログラムは以下の通りである
-  - [section02.cs](./section02.cs)
+  - [game.cs](./game.cs)
   - [soldier.cs](./soldier.cs)
 
