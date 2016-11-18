@@ -46,3 +46,5 @@ $ game.exe
   - [game.cs](./answer/game.cs)
   - [soldier.cs](./answer/soldier.cs)
 
+---
+次: [Section02](../section02): カプセル化、アクセス修飾子、状態と振る舞い
