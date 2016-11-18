@@ -44,5 +44,5 @@ $ game.exe
 
 - さらなる改良案を議論する
   - [game.cs](./answer/game.cs)
-  - [soldier.cs](./answer/game.cs)
+  - [soldier.cs](./answer/soldier.cs)
 
