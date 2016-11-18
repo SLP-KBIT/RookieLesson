@@ -68,8 +68,8 @@ $ ls -l
 drwxr-xr-x 3 vitamin member  4096 11月 18 11:12 lesson001/
 ```
 
-読み方は、以下のとおりである。
-![permission](./elements/section02/permission.gif)
+読み方は、以下のとおりである。  
+![permission](./elements/section02/permission.gif)  
 (引用: http://begi.net/read/operation/10.html)
 
 この場合、LICENSE.txt及びREADME.mdには、どのユーザも読込み権限はあるが、実行権限はない。また、所有ユーザにのみ書込み権限がある。

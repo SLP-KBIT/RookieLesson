@@ -13,7 +13,7 @@ ex. プロセス管理、メモリ管理、デバイス管理、etc...
 ユーザから見て、kernelを殻(shell)のように包んでいることからShellと呼ぶ。
 CUIの形態をとるコマンドラインシェルとGUIの形態をとるグラフィカルシェルがある。
 
-![kernel_and_shell](./elements/section01/kernel.png)
+![kernel_and_shell](./elements/section01/kernel.png)  
 (引用: http://www.cc.kyoto-su.ac.jp/~hirai/text/shell.html)
 
 ## Shellへの命令
