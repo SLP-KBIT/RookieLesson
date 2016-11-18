@@ -39,3 +39,6 @@ BSD向けに開発されたShell。C言語をモデルとした構文規則。�
 #### C Shell互換
 
 - TENEX Shell(tcsh) : 富永教員が好んで使うshell。
+
+---
+次: [Section02](./section02.md): ディレクトリとは

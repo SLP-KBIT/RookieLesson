@@ -11,3 +11,6 @@ message+   984  0.0  0.0  39312  1548 ?        Ss    9月11   1:48 dbus-daemon -
 root      1045  0.0  0.0  43444  1872 ?        Ss    9月11   0:00 /lib/systemd/systemd-logind
 vitamin  19082  0.0  0.0  11416   920 pts/21   S+   20:27   0:00 grep sys
 ```
+
+---
+次: [Section06](./section06.md): リダイレクト

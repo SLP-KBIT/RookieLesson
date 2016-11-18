@@ -26,3 +26,6 @@ $ sh hello.sh
 // 実行ファイルとして実行 chmod +x hello.sh を実行済み
 $ ./hello.sh
 ```
+
+---
+次: [Section08](./section08.md): シェルの設定ファイル
