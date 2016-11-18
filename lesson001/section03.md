@@ -10,6 +10,6 @@
 |rm        | ファイルを削除する          | rm hoge.txt   |
 |mkdir     | ディレクトリを作成する      | mkdir tmp/    |
 |rmdir     | 空のディレクトリを削除する      | rmdir tmp/|
-|cp        | ディレクトリやファイルをコピーする | cp tmp/  tmp1/|
+|cp        | ディレクトリやファイルをコピーする | cp tmp1.txt  tmp.txt|
 |mv        | ディレクトリやファイルを移動する   | mv hoge.c tmp/hoge.c |
 |chmod     | ファイル・ディレクトリのパーミッションを変更する| chmod u+x|
