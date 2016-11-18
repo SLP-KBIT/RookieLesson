@@ -64,3 +64,5 @@ $ ./game.exe
   - [game.cs](./practice/game.cs)
   - [soldier.cs](./practice/soldier.cs)
 
+---
+次: [Section03](../section03): 継承、オーバーライド、ポリモーフィズム
