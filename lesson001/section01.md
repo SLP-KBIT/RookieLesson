@@ -11,7 +11,7 @@ ex. プロセス管理、メモリ管理、デバイス管理、etc...
 ユーザとkernelの間のやり取りを仲介するプログラム。
 ユーザからの入力を、kernelに分かる形(機械語)に変換して伝え、kernelからの応答をユーザにわかる形に変換して表示する。
 ユーザから見て、kernelを殻(shell)のように包んでいることからShellと呼ぶ。
-CUIの形態をとるコマンドラインシェルとCUIの形態をとるグラフィカルシェルがある。
+CUIの形態をとるコマンドラインシェルとGUIの形態をとるグラフィカルシェルがある。
 
 ![kernel_and_shell](./elements/section01/kernel.png)
 (引用: http://www.cc.kyoto-su.ac.jp/~hirai/text/shell.html)

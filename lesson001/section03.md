@@ -12,3 +12,4 @@
 |rmdir     | 空のディレクトリを削除する      | rmdir tmp/|
 |cp        | ディレクトリやファイルをコピーする | cp tmp/  tmp1/|
 |mv        | ディレクトリやファイルを移動する   | mv hoge.c tmp/hoge.c |
+|chmod     | ファイル・ディレクトリのパーミッションを変更する| chmod u+x|
