@@ -5,12 +5,14 @@ Lesson003 : JavaScript入門
 - [Section02](./section02.md) : DOMを取得してみよう
 - [Section03](./section03.md) : DOMの内容を変更してみよう
 - [Section04](./section04.md) : DOMのスタイルを変更してみよう
-- [Section05](./section05.md) : jQueryというライブラリを使ってみよう
 
 備考
 ---
 
+##### 次回予告
 
+  - HTML から jsのファイルを読み込む
+  - DOMのイベントを取得する
 
 本セクションの担当者
 ---

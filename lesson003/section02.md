@@ -26,11 +26,11 @@ Document インターフェイスはブラウザに読み込まれた Web ペー
 Web ページのコンテンツである DOM ツリーへのエントリポイントとして提供されます。
 これはページの URL を取得したりドキュメントで新たな要素を作成するなど、
 ドキュメント全体に関わる機能を提供します。
-
 ```
-[MDN document](https://developer.mozilla.org/ja/docs/Web/API/document) より
 
-#### document.querySelector(String selector) : `Element`
+  [MDN document](https://developer.mozilla.org/ja/docs/Web/API/document) より
+
+#### :paperclip: document.querySelector(String selector) : `Element`
 
 指定した**セレクタ**`*1`にマッチする先頭のDOMの参照を取得する関数です
 
@@ -50,7 +50,7 @@ document.querySelector('div > p')
 
 ##### pick up (似た関数の紹介)
 
-#### document.querySelectorAll(String selector) : `Array<Element>`
+#### :paperclip: document.querySelectorAll(String selector) : `NodeList<Element>`
 
 指定した**セレクタ**`*1`にマッチする先頭のDOMの参照を取得する関数です
 
@@ -68,7 +68,7 @@ document.querySelectorAll('div > p')
 //=> [<p>hoge</p>, <p>poge</p>, <p>foo</p>, <p>bar</p>]
 ```
 
-#### document.getElementById(String id) : `Element`
+#### :paperclip: document.getElementById(String id) : `Element`
 
 ```html
 <div>
@@ -83,7 +83,7 @@ document.getElementById('hoge-string')
 
 特定の id をもつ DOMの参照を取得します
 
-#### document.getElementsByClassName(String className) : `Array<Element>`
+#### :paperclip: document.getElementsByClassName(String className) : `NodeList<Element>`
 
 与えられた class 名を持つエレメント群のリストを返します。
 
@@ -101,7 +101,7 @@ document.getElementsByClassName('ore-text')
 //=> [<p class="ore-text">hoge</p>, <p class="ore-text">foo</p>]
 ```
 
-#### document.getElementsByTagName(String tagName) : `Array<Element>`
+#### :paperclip: document.getElementsByTagName(String tagName) : `NodeList<Element>`
 
 与えられたタグ名を持つエレメント群のリストを返します。
 
@@ -148,4 +148,4 @@ document.querySelector('div#hoge'); // divタグ かつ idが hoge のものを�
 - 左上のアイコン(svgタグ)を取得せよ
 
 ---
-次のセクション，[section03 : ](./section03.md) へと進む
+次のセクション，[section03 : DOMの内容を変更してみよう](./section03.md) へと進む
