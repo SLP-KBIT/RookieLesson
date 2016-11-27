@@ -25,6 +25,9 @@ Agenda
 ---
 
 - [Lesson000 : レッスンの作成手順と方法](./lesson000)
+- [Lesson001 : Shell入門](./lesson001)
+- [Lesson002 : オブジェクト指向入門](./lesson002)
+- [Lesson003 : JavaScript入門](./lesson003)
 
 License
 ---
