@@ -3,12 +3,23 @@ Section02 : DOMを取得してみよう
 
 ### 開発を始める前に
 
-これからは，devツールにjavascriptiのコードに記述して行きます．
+これからは，devツールにjavascriptのコードに記述して行きます．
 なので，devツールを起動しておいてください．
 
 - 起動方法(アニメーション)
 
   ![Boot developer tools in Chrome](./elements/2_0_boot-dev-tools.gif)
+
+起動できて，コンソールの動作を確認できれば次は，DOM情報の閲覧方法を
+ここで習得しておきましょう．
+
+上のタブの `Elements` をクリックするとHTMLのDOM構造が確認できます．
+その状態で，左上のカーソルを押すと，DOM選択モード隣，
+実際のページから DOM情報を閲覧することができます．
+
+- dev tool による DOMの情報の閲覧方法
+
+  ![Get DOM by dev tools](./elements/2_2_get-dom-by-dev-tools.gif)
 
 ### DOMを取得する
 
