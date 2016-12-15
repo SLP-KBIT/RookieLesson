@@ -5,7 +5,7 @@
 - [Section01](./section01.md): Rubyとは
 - [Section02](./section02.md): Railsとは
 - [Section03](./section03.md): Railsプロジェクトを作る
-- [Section04](./section04.md): RESTなページを作成する
+- [Section04](./section04.md): ページを作成する
 
 
 ## 備考

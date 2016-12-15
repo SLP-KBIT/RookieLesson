@@ -2,68 +2,40 @@
 
 ## Railsとは
 
-- オープンソースの動的なプログラミング言語
-- スクリプト言語(Not コンパイラ言語)
-- オブジェクト指向を採用
-- Perl、Smailtalk、Eiffel、Ada、Lispの一部をブレンド
-- 関数型プログラミングと命令形プログラミングが調和
+- Ruby製のWebアプリケーションフレームワーク
+- MVCアーキテクチャに基づいて構築
+- 強力なORM ActiveRecordを組込んでいる
 
-## Rubyのプログラムの特徴
-
-### スクリプト言語(逐次実行)
+## フレームワークとは
 
 ```
-#### sample.rb
-puts "hoge1"
-puts "hoge2"
-puts 10 / 0
-puts "hoge3"
-
-$ ruby sample.rb
-hoge1
-hoge2
-sample.rb:3:in `/': divided by 0 (ZeroDivisionError)
-        from sample.rb:3:in `<main>'
-
+プログラミングにおいて、一般的な機能をもつ共通コードをユーザーが選択的に上書きしたり特化させたりすることで、ある特定の機能をもたせようとする抽象概念のことである。（Wikipediaより）
 ```
 
-### 動的型付け
+- 大きなライブラリ
+
+## MVCアーキテクチャ
+
+プログラムをModel、View、Controllerに分割する
+
+- Model      : アプリケーションデータ、ビジネスルール、ロジック、関数
+- View       : グラフや図などの任意の情報表現
+- Controller : 入力を受け取りModelとViewへの命令に変換する
+
+## ORM(ORマッパー)
+
+「オブジェクト」と「リレーショナル・データベース」を対応付けするもの。
+実装時のデータベース操作にかかわる煩雑な作業を軽減してくれる。
 
 ```
-### C言語
-int i;
-i = 0 // OK
-i = "hoge" // NG
+# SQL
 
-### Ruby
-i = 0 # OK
-i = "hoge" # OK
-```
+INSERT INTO table VALUES (1, 'hoge', ...)
 
-### 全てがオブジェクト(Not プリミティブ型)
+# ORM(AR)
 
-```
-1.class
-=> Fixnum
-
-"hoge".class
-=> String
-```
-
-### 柔軟性
-
-Rubyでは、ユーザーが自由にその一部を変更することが可能
-
-```
-class String
-  def to_hoge
-    "hoge"
-  end
-end
-
-"foo".to_hoge
-=> "hoge"
+Table.new(1, 'hoge')
 ```
 
 ---
-次: [Section02](./section02.md): Railsとは
+次: [Section03](./section03.md): Railsプロジェクトを作る
