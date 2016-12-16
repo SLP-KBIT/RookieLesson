@@ -28,7 +28,7 @@ Gemfileを参考に、依存gemをinstallするgem
 bundle install --path vendor/bundle
 ```
 
-bundleで入れたgemを使うためには`bundle exec`をつける必要がある
+bundleで入れたgemをコンソールから使うためには`bundle exec`をつける必要がある
 
 ```
 ex. bundle exec rails server
@@ -43,22 +43,22 @@ config/database.ymlでDBへの接続設定を記述する。
 ```
 default: &default
   username: vitamin
-    adapter: postgresql
-      encoding: unicode
-        pool: 5
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
 
 development:
   <<: *default
-    database: RookieLessonProject_development_vitamin
+  database: RookieLessonProject_development_vitamin
 
 test:
   <<: *default
-    database: RookieLessonProject_test_vitamin
+  database: RookieLessonProject_test_vitamin
 
 production:
   <<: *default
-    database: RookieLessonProject_production_vitamin
-      password: <%= ENV['ROOKIELESSONPROJECT_DATABASE_PASSWORD'] %>
+  database: RookieLessonProject_production_vitamin
+  password: <%= ENV['ROOKIELESSONPROJECT_DATABASE_PASSWORD'] %>
 ```
 
 ```

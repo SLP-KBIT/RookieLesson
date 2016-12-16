@@ -5,7 +5,7 @@
 - オープンソースの動的なプログラミング言語
 - スクリプト言語(Not コンパイラ言語)
 - オブジェクト指向を採用
-- Perl、Smailtalk、Eiffel、Ada、Lispの一部をブレンド
+- Perl、Smalltalk、Eiffel、Ada、Lispの一部をブレンド
 - 関数型プログラミングと命令形プログラミングが調和
 
 ## Rubyのプログラムの特徴
@@ -16,15 +16,14 @@
 #### sample.rb
 puts "hoge1"
 puts "hoge2"
-puts 10 / 0
-puts "hoge3"
+pust "hoge3"
 
 $ ruby sample.rb
 hoge1
 hoge2
-sample.rb:3:in `/': divided by 0 (ZeroDivisionError)
-        from sample.rb:3:in `<main>'
-
+hoge1
+hoge2
+sample.rb:3:in `<main>': undefined method `pust' for main:Object (NoMethodError)
 ```
 
 ### 動的型付け
@@ -50,7 +49,7 @@ i = "hoge" # OK
 => String
 ```
 
-### 柔軟性
+### オープンクラス(柔軟性)
 
 Rubyでは、ユーザーが自由にその一部を変更することが可能
 
