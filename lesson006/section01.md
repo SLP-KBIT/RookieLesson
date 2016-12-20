@@ -48,6 +48,11 @@ user      GET    /users/:id(.:format)      users#show
           DELETE /users/:id(.:format)      users#destroy
 ```
 
+- Verb: HTTPのメソッド
+- URI Pattern : 該当するURI(URL)
+- Controller#Action : どのControlerのどのAction(メソッド)に紐付いているか
+- Prefix : URLを生成するためのエイリアスのようなもの。(`uesrs_path #=> '/users'`)
+
 ## ユーザ一覧(indexアクション)の作成
 
 ### Controllerにアクションを追加
@@ -92,7 +97,8 @@ app/views/users/index.html.erbを作成
 
 ```
 <h1>ユーザ一覧</h1>
-<table>                                                                                                            <thead>
+<table>
+  <thead>
     <th>ID</th>
     <th>名前</th>
   </thead>
