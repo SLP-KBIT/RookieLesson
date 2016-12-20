@@ -12,7 +12,7 @@
   <b><a href="#agenda">Agenda</a></b>
   |
   <b><a href="#license">License</a></b>
-</p> 
+</p>
 
 About
 ---
@@ -28,6 +28,7 @@ Agenda
 - [Lesson001 : Shell入門](./lesson001)
 - [Lesson002 : オブジェクト指向入門](./lesson002)
 - [Lesson003 : JavaScript入門](./lesson003)
+- [Lesson005 : Rails入門(1)](./lesson005)
 
 License
 ---
