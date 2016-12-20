@@ -66,6 +66,28 @@ end
 
 ### Viewを追加
 
+#### ERB
+
+HTMLなどの文章の中にRubyのスクリプトを埋め込むためのライブラリ
+`<%  %>`で括ることで、Rubyのコードとして記述できる。
+
+通常のRubyコード
+```
+<%  %>
+```
+
+結果をテキストとして表示する
+```
+<%=  %>
+```
+
+コメント
+```
+<%#  %>
+```
+
+#### index.html.erbの作成
+
 app/views/users/index.html.erbを作成
 
 ```
@@ -82,6 +104,6 @@ app/views/users/index.html.erbを作成
   </tbody>
 </table>
 ```
-
-
 ---
+
+次: [ユーザの新規作成・編集ページの作成](./section02.md)
