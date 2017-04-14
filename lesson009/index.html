@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      .board {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        margin-top: 40px;
+      }
+      .piece {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-top: -6px;
+        margin-left: -6px;
+        background: white;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .black {
+        background: gray !important;
+      }
+      .pink {
+        background: pink !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="board">
+      <div id="0" class="piece"></div>
+      <div id="1" class="piece"></div>
+      <div id="2" class="piece"></div>
+      <div id="3" class="piece"></div>
+      <div id="4" class="piece"></div>
+      <div id="5" class="piece"></div>
+      <div id="6" class="piece"></div>
+      <div id="7" class="piece"></div>
+      <div id="8" class="piece"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
