@@ -1,24 +1,7 @@
 'use strict';
 
-/*
- * 変数の宣言．
- * const と let がある．
- * const は，再代入不可能
- * let は，再代入可能
- *
- * 関数の書き方．
- *
- * const hogeFunc = () => {
- *  // doSomething....
- * };
- *
- * 実行するとき
- * hogeFunc();
- *
- * java風にあえて表現すると
- * void function forEach(Function<T, Number> function);
- *
- **/
+const FIELD_SIZE = 3;
+const LEN_SIZE = 3;
 
 (function() {
   let orderCount = 0;
@@ -27,26 +10,45 @@
 
   const generateMultipleArray = () => {
     const array = _.map(pieces, (element) => element.className.replace('piece',  '').trim())
-    return _.chunk(array, 3);
+    return _.chunk(array, FIELD_SIZE);
   };
+
+  const isEmpty = (str) => str === '';
 
   const gameIsEnd = () => {
     const array = generateMultipleArray();
-    // TODO: 3連の判定
+    let flag = false;
+    _.times(array.length).forEach(i => {
+      const line = array[i];
+      _.times(line.length).forEach(j => {
+        const cell = array[i][j];
+        _.times(3, (x) => x - 1).forEach(dx => {
+          _.times(3, (y) => y - 1).forEach(dy => {
+            let count = 0;
+            _.times(LEN_SIZE + 1).forEach(k => {
+              const color = _.get(array, [i + dx + k, j + dy + k], '');
+              if (!isEmpty(color) && color === cell) count++;
+              if (count === LEN_SIZE) flag = true;
+            });
+          });
+        });
+      });
+    });
     console.table(array);
-    return false;
+    return flag;
   };
 
   const onClick = (event) => {
     const className = event.target.className;
     const currentColor = orderCount % 2 === 0 ? ' black' : ' pink';
-    const isEmpty = () => !/black/.test(className) && !/pink/.test(className);
-    if (isEmpty()) {
+    const isEmptyColor = () => !/black/.test(className) && !/pink/.test(className);
+    if (isEmptyColor()) {
       event.target.className += currentColor;
       orderCount++;
     }
     if (gameIsEnd()) {
-      alert('ゲーム終了です！');
+      const resultElement = document.querySelector('.result');
+      resultElement.innerText = 'ゲーム終了';
     }
   };
   pieces.forEach((piece) => {
